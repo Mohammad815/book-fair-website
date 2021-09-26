@@ -31,7 +31,7 @@ const BookShop = () => {
            <div className='leftSide'>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
-                    books.map(book => <BookStore book={book}
+                    books.map(book => <BookStore book={book} key={book.bookN0}
                     handlebtn={handlebtn}></BookStore>)
                     }
                 </div>

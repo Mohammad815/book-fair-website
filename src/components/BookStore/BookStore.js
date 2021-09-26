@@ -2,7 +2,7 @@ import React from 'react';
 import './BookStore.css'
 
 const BookStore = (props) => {
-    console.log(props)
+
     const {booksName,picture, store, writerNames, price, language}=props.book;
    
     return (

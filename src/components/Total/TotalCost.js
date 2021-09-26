@@ -8,7 +8,7 @@ const TotalCost = (props) => {
 
             <h3>Total Cost: ${props.total}</h3>
             
-            <p>BooK Name : {props.name} </p>
+            <h5>Selected BooK Name : <span className='text-success'>{props.name}</span> </h5>
         </div>
     );
 };

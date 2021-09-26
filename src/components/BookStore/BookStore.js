@@ -9,7 +9,7 @@ const BookStore = (props) => {
         <div className="col">
             <div className="card h-100 ">
             `   <img src={picture} className="card-img-top" alt="" />
-                <div className="card-body card-body">
+                <div className="card-body card-body light">
                     <h5 className="card-title">Tittle : {booksName}</h5>
                     <p>Author Name : {writerNames}</p>
                     <p>Price  : {price}</p>
